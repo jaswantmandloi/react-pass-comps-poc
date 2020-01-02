@@ -1,6 +1,6 @@
 import React from 'react'
-import Input from './components/Input'
-import Container from './components/Container'
+import Input from 'components/Input'
+import Container from 'components/Container'
 
 class App extends React.Component {
   render () {
