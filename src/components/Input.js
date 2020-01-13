@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
+import Button from './Button'
 let lastCallback = null
 const Input = () => {
   const [value, setValue] = useState('')
   console.log('lastCallback === setValue', lastCallback === setValue)
   lastCallback = setValue
 
-  console.log('Input rendering ', value)
+  console.log('Input rendering 12', value)
   return (
     <div>
       <input
@@ -15,6 +16,7 @@ const Input = () => {
           setValue(event.target.value)
         }}
       />
+      <Button />
     </div>
   )
 }

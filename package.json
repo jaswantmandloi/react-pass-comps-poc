@@ -8,6 +8,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "testc": "react-scripts test --onlyChanged",
+    "testcc": "react-scripts test --changedFilesWithAncestor",
+    "testsc": "react-scripts test --bail --findRelatedTests",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
