@@ -5,7 +5,7 @@ const Input = () => {
   console.log('lastCallback === setValue', lastCallback === setValue)
   lastCallback = setValue
 
-  console.log('Input rendering', value)
+  console.log('Input rendering ', value)
   return (
     <div>
       <input
