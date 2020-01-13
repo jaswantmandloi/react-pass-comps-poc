@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Container = ({ input }) => {
-  console.log('Container rendering')
+  console.log('Container rendering ')
   return (
     <>
       <div>Container Header</div>
@@ -10,7 +10,7 @@ const Container = ({ input }) => {
         {input && input}
       </div>
     </>
-  );
+  )
 }
 
 export default Container
