@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Button from './Button'
+import { convertInputValue, otherConvertInputValue } from '../utils/inputUtils'
 let lastCallback = null
 const Input = () => {
   const [value, setValue] = useState('')
@@ -7,6 +8,10 @@ const Input = () => {
   lastCallback = setValue
 
   console.log('Input rendering 12', value)
+
+  convertInputValue()
+  otherConvertInputValue()
+
   return (
     <div>
       <input
